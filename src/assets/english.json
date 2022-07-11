@@ -4,6 +4,7 @@
   "denied-reason-2": "The participant does not meet the criteria/incorrect information",
   "denied-reason-3": "The participant could not be contacted",
   "header": "<table width='100%' cellspacing='0' cellpadding='0'><tr><td style='border_bottom: 1px solid #cccccc'><table cellspacing='0' cellpadding='0'><tr><td><a href='https://www.probando.io/#/' target='_blank' style='display: inline-block;'><img alt='logo' src='https://www.probando.io/assets/images/logo_with_text_en.jpg' style='width: 225px'; /></a></td></tr></table></td></tr></table> <br /><br />",
+  "body": "<body style='text-align:right; direction:rtl;'>",
   "mail_customer_register-greeting": "<p>Hello study provider,<br /> <br />Thank you for your registration. Click on the following link to confirm your e-mail address:</p>",
   "mail_customer_register-subject": "Confirmation of the email address for Probando",
   "mail_customer_register-text-1": "<p>If you did not sign up for Probando, you can ignore this confirmation e-mail. Do you need help? Please contact our <a href='mailto:support@probando.io' target='_blank'>support</a>.<br /> <br />Your Probando Team</p>",

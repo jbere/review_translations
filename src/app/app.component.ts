@@ -10605,30 +10605,24 @@ export class AppComponent {
   arabMails: string[] = [];
   englishMails: string[] = [];
   constructor(private http: HttpClient) {
-    this.http
-      .get("https://review-translations.netlify.app/assets/hebrew.json")
-      .subscribe((data) =>
-        Object.entries(data).forEach(([key, value]) => {
-          console.log(key + " - " + value);
-          this.hebrewMails.push(value);
-        })
-      );
-    this.http
-      .get("https://review-translations.netlify.app/assets/arab.json")
-      .subscribe((data) =>
-        Object.entries(data).forEach(([key, value]) => {
-          console.log(key + " - " + value);
-          this.arabMails.push(value);
-        })
-      );
-    this.http
-      .get("https://review-translations.netlify.app/assets/english.json")
-      .subscribe((data) =>
-        Object.entries(data).forEach(([key, value]) => {
-          console.log(key + " - " + value);
-          this.englishMails.push(value);
-        })
-      );
+    this.http.get("assets/hebrew.json").subscribe((data) =>
+      Object.entries(data).forEach(([key, value]) => {
+        console.log(key + " - " + value);
+        this.hebrewMails.push(value);
+      })
+    );
+    this.http.get("assets/arab.json").subscribe((data) =>
+      Object.entries(data).forEach(([key, value]) => {
+        console.log(key + " - " + value);
+        this.arabMails.push(value);
+      })
+    );
+    this.http.get("assets/english.json").subscribe((data) =>
+      Object.entries(data).forEach(([key, value]) => {
+        console.log(key + " - " + value);
+        this.englishMails.push(value);
+      })
+    );
   }
 
   onFileChange(ev: any) {

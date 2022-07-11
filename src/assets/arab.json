@@ -23,7 +23,7 @@
   "mail_user_proband_inprogress-greeting": "مرحبًا",
   "mail_user_proband_inprogress-subject": "تغيير حالة الدراسة",
   "mail_user_proband_inprogress-text1": "، <br /> <br /> <br /> وضع الدراسة الخاص بك: <br /> <br /> <b>",
-  "mail_user_proband_inprogress-text2": "</b><br /><br /> قد تغير إلى <b><i>&quot;in progress&quot;</i></b><br /><br /><br /><table width='100%' cellspacing='0' cellpadding='0'><tr><td><table cellspacing='0' cellpadding='0'><tr><td style='border-radius: 2px;' bgcolor='#339ed2'><a href='https://www.probando.io/#/user/announced' target='_blank' style='padding: 8px 12px; border-bottom: 1px solid #339ed2;border-radius: 2px;font-family: Helvetica, Arial, sans-serif;font-size: 14px; color: #ffffff; text-decoration: none;font-weight:bold;display: inline-block;'>إلى لوحة القيادة</a></td></tr></table></td></tr></table></font>",
+  "mail_user_proband_inprogress-text2": "</b><br /><br /> قد تغير إلى <b><i>&quot;في تَقَدم&quot;</i></b><br /><br /><br /><table width='100%' cellspacing='0' cellpadding='0'><tr><td><table cellspacing='0' cellpadding='0'><tr><td style='border-radius: 2px;' bgcolor='#339ed2'><a href='https://www.probando.io/#/user/announced' target='_blank' style='padding: 8px 12px; border-bottom: 1px solid #339ed2;border-radius: 2px;font-family: Helvetica, Arial, sans-serif;font-size: 14px; color: #ffffff; text-decoration: none;font-weight:bold;display: inline-block;'>إلى لوحة القيادة</a></td></tr></table></td></tr></table></font>",
   "mail_user_proband_rejection-greeting": "مرحبًا",
   "mail_user_proband_rejection-subject": "تأكيد إلغاء تسجيل الدراسة",
   "mail_user_proband_rejection-text1": "، <br /> <br /> <br /> يؤسفنا أن نقول إنه تم رفض مشاركة الشخص المسؤول عن الدراسة: <br /> <br /> <b>",

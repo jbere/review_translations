@@ -23,7 +23,7 @@
   "mail_user_proband_inprogress-greeting": "שלום",
   "mail_user_proband_inprogress-subject": "שינוי סטטוס המחקר",
   "mail_user_proband_inprogress-text1": "، <br /> <br /> <br />מצב המחקר שלך:<br /> <br /> <b>",
-  "mail_user_proband_inprogress-text2": "</b><br /><br />השתנה ל. ללוח המחוונים<b><i>&quot;in progress&quot;</i></b><br /><br /><br /><table width='100%' cellspacing='0' cellpadding='0'><tr><td><table cellspacing='0' cellpadding='0'><tr><td style='border-radius: 2px;' bgcolor='#339ed2'><a href='https://www.probando.io/#/user/announced' target='_blank' style='padding: 8px 12px; border-bottom: 1px solid #339ed2;border-radius: 2px;font-family: Helvetica, Arial, sans-serif;font-size: 14px; color: #ffffff; text-decoration: none;font-weight:bold;display: inline-block;'>ללוח המחוונים</a></td></tr></table></td></tr></table></font>",
+  "mail_user_proband_inprogress-text2": "</b><br /><br />השתנה ל. ללוח המחוונים<b><i>&quot;בתהליך&quot;</i></b><br /><br /><br /><table width='100%' cellspacing='0' cellpadding='0'><tr><td><table cellspacing='0' cellpadding='0'><tr><td style='border-radius: 2px;' bgcolor='#339ed2'><a href='https://www.probando.io/#/user/announced' target='_blank' style='padding: 8px 12px; border-bottom: 1px solid #339ed2;border-radius: 2px;font-family: Helvetica, Arial, sans-serif;font-size: 14px; color: #ffffff; text-decoration: none;font-weight:bold;display: inline-block;'>ללוח המחוונים</a></td></tr></table></td></tr></table></font>",
   "mail_user_proband_rejection-greeting": "שלום",
   "mail_user_proband_rejection-subject": "חקר אישור רישום לרישום",
   "mail_user_proband_rejection-text1": "، <br /> <br /> <br /> אנו מצטערים לומר שנדחתה על השתתפותו על ידי האדם האחראי למחקר:<br /> <br /> <b>",
