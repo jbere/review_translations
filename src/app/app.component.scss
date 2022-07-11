@@ -1,0 +1,14 @@
+.mailContainer {
+  display: flex;
+  flex-direction: column;
+}
+.allContainer {
+  display: flex;
+  flex-direction: row;
+  outline: 1px solid red;
+}
+
+.mail {
+  margin: 2rem;
+  outline: 1px solid red;
+}

@@ -1,0 +1,35 @@
+<!-- <p>EXCEL TO JSON</p>
+
+<input type="file" (change)="onFileChange($event)" />
+
+<div id="output"></div>
+<br />
+<div *ngIf="willDownload">
+  <a id="download"> Download JSON File </a>
+</div> -->
+
+<br />
+<br />
+<br />
+<br />
+<p>emails</p>
+<div class="allContainer">
+  <div class="mailContainer">
+    <div *ngFor="let email of englishMails; let i = index" class="mail">
+      <div>{{ i + 2 }}</div>
+      <div [innerHTML]="email"></div>
+    </div>
+  </div>
+  <div class="mailContainer" dir="rtl">
+    <div *ngFor="let email of hebrewMails; let i = index" class="mail">
+      <div>{{ i + 2 }}</div>
+      <div [innerHTML]="email"></div>
+    </div>
+  </div>
+  <div class="mailContainer" dir="rtl">
+    <div *ngFor="let email of arabMails; let i = index" class="mail">
+      <div>{{ i + 2 }}</div>
+      <div [innerHTML]="email"></div>
+    </div>
+  </div>
+</div>
