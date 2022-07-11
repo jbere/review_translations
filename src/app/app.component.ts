@@ -10606,21 +10606,23 @@ export class AppComponent {
   englishMails: string[] = [];
   constructor(private http: HttpClient) {
     this.http
-      .get("http://localhost:4200/assets/hebrew.json")
+      .get("https://review-translations.netlify.app/assets/hebrew.json")
       .subscribe((data) =>
         Object.entries(data).forEach(([key, value]) => {
           console.log(key + " - " + value);
           this.hebrewMails.push(value);
         })
       );
-    this.http.get("http://localhost:4200/assets/arab.json").subscribe((data) =>
-      Object.entries(data).forEach(([key, value]) => {
-        console.log(key + " - " + value);
-        this.arabMails.push(value);
-      })
-    );
     this.http
-      .get("http://localhost:4200/assets/english.json")
+      .get("https://review-translations.netlify.app/assets/arab.json")
+      .subscribe((data) =>
+        Object.entries(data).forEach(([key, value]) => {
+          console.log(key + " - " + value);
+          this.arabMails.push(value);
+        })
+      );
+    this.http
+      .get("https://review-translations.netlify.app/assets/english.json")
       .subscribe((data) =>
         Object.entries(data).forEach(([key, value]) => {
           console.log(key + " - " + value);
